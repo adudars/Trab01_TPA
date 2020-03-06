@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class microphone{
+    
+    public static void main (String[] args){
+		
+		int cont = 0;
+		Scanner in = new Scanner(System.in);
+		String word = in.next();
+		for(int i = 1; i<word.length(); i++){
+			char letra = word.charAt(i);
+			char letra2 = word.charAt(i-1);
+			if(letra == 's' && letra2 == 's'){
+				cont = 1;
+				break;
+			}
+		}
+		
+        if(cont != 0){
+        	System.out.println("hiss");
+        }else{
+        	System.out.println("no hiss");
+        }    
+			
+		in.close();
+	}
+}
