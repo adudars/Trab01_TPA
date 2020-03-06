@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class cake{
+  public static void main (String[] args){
+    Scanner in = new Scanner(System.in);
+    int lado = in.nextInt();
+    int h = in.nextInt();
+    int v = in.nextInt();
+    
+    System.out.println(Math.max(h, lado-h)*Math.max(v, lado-v)*4);
+    in.close(); 
+  }
+}
