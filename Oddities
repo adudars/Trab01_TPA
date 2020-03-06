@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class oddities{
+    
+    public static void main (String[] args){
+    	int n, i = 0;
+    	
+        Scanner in = new Scanner(System.in);
+		n = in.nextInt();
+			
+		for(;n>0;n--){
+			i = in.nextInt();
+			if(i % 2 == 0){
+				System.out.println(i + " is even");
+			}else{
+				System.out.println(i + " is odd");
+			}
+		}	
+		in.close();
+	}
+}
