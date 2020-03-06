@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class pet{
+    
+    public static void main (String[] args){
+    	int n = 0;
+    	int jogador = 0;
+    	int qtd = 0;
+        Scanner in = new Scanner(System.in);
+        
+       for(int j = 1; j < 6; j++){
+        	for(int i = 4; i > 0; i--){
+        		
+        		n += in.nextInt();
+        	}
+        	
+        	if(n>qtd){
+        		qtd = n;
+        		jogador = j;
+        	}
+        	n = 0;
+        }
+        
+		System.out.println(jogador +" " + qtd);
+		in.close();
+	}
+}
