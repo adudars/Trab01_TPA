@@ -21,4 +21,4 @@ O trabalho tem como objeivo desenvolver soluções para 10 problemas disponibili
 - [Sibice](https://github.com/eduardarsimoes/TPA_Kattis/blob/master/Sibice)
 - [Speed Limit](https://github.com/eduardarsimoes/TPA_Kattis/blob/master/Speed%20Limit)
 - [Stuck In A Time Loop](https://github.com/eduardarsimoes/TPA_Kattis/blob/master/Stuck%20In%20A%20Time%20Loop)
-- [Take two stones](Take two stones)
+- [Take two stones](https://github.com/eduardarsimoes/TPA_Kattis/blob/master/Take%20two%20stones)
